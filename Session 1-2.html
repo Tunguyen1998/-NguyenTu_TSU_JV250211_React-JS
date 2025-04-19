@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let a = prompt("Hay nhap vao 1 so bat ki !");
+         checkNumber(Number(a));
+         
+        function checkNumber(a) {
+            if (isNaN(Number(a))) {
+                alert(`${a} khong phai la so !`);
+            }else if (a % 2 === 0){
+                alert(`So ${a} la so chan .`);
+            }else{
+                alert(`So ${a} la so le .`);
+
+            }
+        }
+        
+
+
+    </script>
+</body>
+</html>
