@@ -6,7 +6,6 @@ import ListCourse from './components/ListCourse'
 import Calculation from './components/Calculation'
 import UserInfo from './components/UserInfo'
 import ColorBox from './components/ColorBox'
-import Demo123 from './components/Demo123'
 import AccountList from './components/AccountList'
 
 
