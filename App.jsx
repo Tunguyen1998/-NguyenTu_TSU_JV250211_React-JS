@@ -1,10 +1,10 @@
 import "./App.css";
-import ToggleInfo from "./components/ToggleInfo";
+import UserForm from "./components/UserForm";
 
 
 function App() {
   return(
-  <ToggleInfo></ToggleInfo>
+  <UserForm></UserForm>
   );
 }
 export default App;
