@@ -13,7 +13,7 @@ import { useState } from 'react';
       <button onClick={handleClick}>
         Click me !
         </button>
-      
+      <p>{message ? "Welcome to VietNam" : ""}</p>
     </div>
   )
 }
